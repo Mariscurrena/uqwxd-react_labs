@@ -2,17 +2,18 @@ h1 {
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+    color: white
   }
 
   body {
-    background: grey
+    background: rgb(35, 35, 227)
   }
   #todo-list {
     width: 500px;
     margin: 60px auto;
   }
   form, .todo {
-    border: 1px solid rgb(15, 26, 61);
+    border: 1px solid rgb(241, 175, 210);
     padding: 10px 20px;
     margin-bottom: 10px;
   }
@@ -30,21 +31,27 @@ h1 {
     display: flex;
     flex-direction: column;
   }
-  
-  button {
+  .delete{
+      text-align: center;
+  }
+  .list{
+      color:rgb(208, 232, 255);
+      text-align: center;
+  }
+  button, .delete {
     font-size: 16px;
-    background-color: rgb(62, 138, 151);
+    background-color: rgb(200, 32, 155);
     color: #fff;
     border-radius: 8px;
     border: none;
     padding: 8px 16px;
     cursor: pointer;
   }
-  button:hover {
-    background-color: rgb(173, 47, 28);
+  button:hover, .delete:hover {
+    background-color: rgb(72, 101, 233);
   }
-  button:active {
-    background-color: rgb(130,35,21);
+  button:active, .delete:active {
+    background-color: rgb(132, 137, 227);
   }
   button:focus {
     outline: 0;
